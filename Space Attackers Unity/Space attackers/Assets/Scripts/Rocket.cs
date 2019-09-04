@@ -13,5 +13,13 @@ public class Rocket : MonoBehaviour
         rb.velocity = transform.up * speed;
     }
 
-   
+    void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        TestDie testDie = hitInfo.GetComponent<TestDie>();
+        if (testDie != null)
+        {
+            testDie.Die();
+            Destroy(gameObject);
+        }
+    }
 }

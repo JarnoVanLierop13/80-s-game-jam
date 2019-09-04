@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\Rocket.cs" />
+    <Compile Include="Assets\TestDie.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/dexterkrijgsman/OflineDocuments/GitHub/80-s-game-jam/Space Attackers Unity/Space attackers/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
